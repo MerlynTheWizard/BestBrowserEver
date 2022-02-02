@@ -201,7 +201,7 @@ def clearHistory():
 ##window config
 window = tk.Tk()
 
-window.title("BestBrowserEver v0.1.1")
+window.title("BestBrowserEver v0.2.0")
 
 window.geometry("1920x1080")
 window.resizable(False, False)
