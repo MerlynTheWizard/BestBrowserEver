@@ -246,10 +246,11 @@ load()
 if load() == True:
         searchBox = tk.Text(window)
         searchBox.config(height=1, width=135)
-        searchBox.grid(column=2, row=2)
+        searchBox.grid(column=2, row=3)
         searchBox.insert(1.0, loadedText) 
 else: searchBox = tk.Text(window)
 searchBox.config(wrap=tk.WORD)
+searchBox.config(height=1, width=135)
 searchBox.grid(column=2, row=3)
 
 
